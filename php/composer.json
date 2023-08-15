@@ -1,0 +1,20 @@
+{
+  "name": "focalstrategy/kata-framework",
+  "require": {
+    "phpunit/phpunit": "^9.6"
+  },
+  "scripts": {
+    "test": "phpunit --bootstrap vendor/autoload.php tests"
+  },
+  "autoload": {
+    "psr-4": {
+      "FocalStrategy\\KataFramework\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Shane Glee",
+      "email": "shane@focalstrategy.com"
+    }
+  ]
+}
